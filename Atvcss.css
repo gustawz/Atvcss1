@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma;
+    text-align: center;
+    background-color: maroon;
+}
+main {
+    background-color: maroon;
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    margin-left: 30%;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+table {
+    margin: auto;
+}
+td {
+    border: 3px dashed indianred;
+}
+h1 {
+    color: whitesmoke;
+    font-style: italic;
+    border: 2px dotted mistyrose;
+}
+.h3_ficcao {
+    position: relative;
+}
+.h3_ficcao::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('Capas/fundo.jpg');
+    background-size: cover;
+    opacity: 0.5; /* Opacidade do fundo */
+    z-index: 0; /* Coloca atrás do texto */
+}
+h3 {
+    position: relative; /* Para que o texto fique acima do fundo */
+    font-family: sans-serif;
+    color: white;
+    z-index: 1; /* Para garantir que o texto fique acima */
+}
+.header_2 {
+    position: relative;
+}
+.header_2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('Capas/fundo.jpg');
+    background-size: cover;
+    opacity: 0.5; /* Opacidade do fundo */
+    z-index: 0; /* Coloca atrás do texto */
+}
+aside {
+    background-image: url(Capas/vinho.jpg);
+    width: 30%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+.aside_cate {
+    color: maroon;
+    background-image: url(Capas/branco.jpg);
+}
+.aside_ficcao {
+    color: maroon;
+    background-image: url(Capas/branco.jpg);
+}
+.aside_noficcao {
+    color: maroon;
+    background-image: url(Capas/branco.jpg);
+}
+.ul_1 {
+    color: lightgray;
+    font-size: 10pt;
+    font-weight: bold;
+    font-weight: 35px;
+    text-align: left;
+    align-items: end;
+    list-style-type: none;
+    line-height: 3;
+}
+.ul_2 {
+    color: lightgray;
+    font-size: 10pt;
+    font-weight: bold;
+    font-weight: 35px;
+    text-align: left;
+    align-items: end;
+    list-style-type: none;
+    line-height: 3;
+}
+span {
+    text-decoration: underline;
+}
+table:hover {
+    transform: rotate(-5deg);
+    border: 5px double gold;
+}
+h1:hover , span:hover {
+    background-color: crimson;
+    color: lightpink;
+    border-color: lightpink;
+}
